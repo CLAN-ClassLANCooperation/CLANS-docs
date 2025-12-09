@@ -22,11 +22,13 @@ VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻�
 
 VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。
 
-::: important Frontmatter
-
-Frontmatter 是 VuePress 中很重要的一个概念，请阅读 [Frontmatter 介绍](https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter) 了解详情。
-
-:::
+<VPCard
+  title="m3rc7Less"
+  desc="Given enough eyeballs,all bugs are shallow."
+  logo="https://avatars.githubusercontent.com/u/155122995?v=4"
+  link="https://mister-hope.com"
+  background="rgba(255, 140, 251, 0.27)"
+/>
 
 ## Markdown 扩展
 
