@@ -127,6 +127,8 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:",
+      // 关键词: "iconify", "fontawesome", "fontawesome-with-brands"
+      assets: "fontawesome",
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

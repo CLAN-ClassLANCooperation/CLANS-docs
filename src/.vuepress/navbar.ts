@@ -2,30 +2,41 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/portfolio",
-  "/demo/",
   {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/guide/",
+    text: "CLAND 教师端使用文档",
+    icon: "school",
+    prefix: "/CLANDTSide/",
+    children: [
+
+    ]
+  },
+  {
+    text: "CLAND 教室端使用文档",
+    icon: "chalkboard-user",
+    prefix: "/CLANDCRSide/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        text: "CLANDCR 部署",
+        icon: "download",
+        link: "install"
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        text: "CLANDCR 介绍",
+        icon: "compass",
+        link: "introduce"
       },
+      
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  },{
+    text: "特别鸣谢",
+    icon: "chalkboard-user",
+    prefix: "/special/",
+    children: [
+      {
+        text: "特别鸣谢",
+        icon: "download",
+        link: "thanks"
+      }
+    ],
+  }
 ]);
